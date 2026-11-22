@@ -1,0 +1,14 @@
+# Environment used to produce every result in the report (tested with Python 3.13).
+# Requires Python >= 3.11 (pandas 3.x).
+# Install:  pip install -r requirements.txt
+# Run:      jupyter notebook new_version4.ipynb   (Kernel -> Restart & Run All)
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl==3.7.0
+matplotlib==3.11.2
+# Jupyter front-end
+notebook>=7.0
+ipykernel==7.4.0
